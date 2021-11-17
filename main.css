@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f9fa !important;
+  background-color: #e7ddcb;
 }
 .nav-main {
   position: fixed;
@@ -20,4 +20,22 @@ body {
 }
 #my-id {
   padding-top: 0.5em;
+}
+#work-section {
+  padding-top: 0.25em;
+}
+.about-work {
+  background-color: #ceddd4;
+}
+#logo {
+  max-height: 9em;
+}
+hr {
+  margin-top: 0;
+}
+#button-projects {
+  padding-bottom: 0.5em;
+}
+* {
+  overflow-x: hidden;
 }
