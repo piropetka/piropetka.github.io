@@ -1,11 +1,5 @@
 body {
-  background-color: #e7ddcb;
-}
-.nav-main {
-  position: fixed;
-  right: 0;
-  margin-top: 1em;
-  margin-right: 0.5em;
+  background-color: #000000;
 }
 .cover-image {
   overflow: hidden;
@@ -14,28 +8,71 @@ body {
   background-image: url("https://picsum.photos/300");
   height: 100%;
   min-height: 279px;
+  border-bottom-left-radius: calc(0.25rem - 1px);
 }
 #welcome-section {
   background-color: #dce1e5;
+  margin: 0.75rem;
+}
+.white-container {
+  background-color: white;
+}
+#accordionSkills {
+  padding: 1rem;
 }
 #my-id {
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
 }
 #work-section {
-  padding-top: 0.25em;
+  padding-top: 0.25rem;
 }
 .about-work {
-  background-color: #ceddd4;
+  padding: 0.75rem;
 }
 #logo {
-  max-height: 9em;
+  max-height: 9rem;
 }
 hr {
   margin-top: 0;
 }
 #button-projects {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
+}
+#project-title {
+  line-height: 1.6;
+}
+.project {
+  height: 100%;
+}
+.project-content {
+  padding: 1rem;
+}
+.skills-header {
+  font-size: 0.75rem;
 }
 html {
   overflow-x: hidden;
+}
+.bi-gear-wide-connected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  font-size: 1.5em;
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#automation-gear {
+  width: 1.5rem;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

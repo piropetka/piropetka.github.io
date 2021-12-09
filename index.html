@@ -8,12 +8,17 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="main.css" />
     <title>Wojciech Petka</title>
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="0">
-    <div class="nav_container"></div>
-    <div id="welcome-section">
+    <body data-spy="scroll" data-target=".navbar" data-offset="0"></body>
+    <div class="rounded" id="welcome-section">
+      <div class="fake_nav"></div>
+      <div class="nav_container"></div>
       <div class="row welcome-section" id="welcome-image">
         <div class="col-md-4 4col-xs-12">
           <div class="cover-image container-fluid"></div>
@@ -39,45 +44,138 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid about-work">
-      <h1 class="text-center about-work" id="work-section">
-        Praca
-        <small class="text-muted">czyli nie tylko klikaniem tester żyje</small>
-      </h1>
-      <div class="row about-work">
-        <div class="col-md-6">
-          <h3>Automatyzacja</h3>
-          <p>
-            Od dłuższego czasu pisze testy w Cypress.io, w ciągu minionych lat, framework znacznie
-            dojrzał. W testach API lubię wpomóc się testami napisanymi w Postmanie. Czasem, bo
-            pojawia się taka konieczność, piszę w Selenium.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <h3>Zarządzanie i raportowanie</h3>
-          <p>
-            Większość projektów wymaga tworzenia dokumentacji testowej i raportowania. Dlatego testy
-            automatyczne generują raporty i podumowania. A do testów manualnych tworzę dokumentację
-            przy użyciu narzędzi takich jak Test Link, Kiwi TCMS.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <h3>Front-end</h3>
-          <p>
-            Tutaj czuje się jak ryba w wodzie. Responsywność, spójność, walidacje i wszystko ce z
-            frontem związane to dla mnie ogromna radość.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <h3>back-end i API</h3>
-          <p>
-            Testuję bezpieczeństwo, wydajność, stabilność. Dobry tester wcale nie musi czekać na
-            front, aby przetestować aplikację :)
-          </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="button-projects">
-            <button type="button" class="btn btn-outline-secondary btn-sm">Projekty</button>
+    <div class="container-fluid about-work rounded">
+      <div class="white-container rounded">
+        <div class="fake_nav"></div>
+        <div class="row row-about-work">
+          <div class="col-md-6 col-sm-12 col-about-work ">
+            <div class="project rounded">
+              <div class="project-content">
+                <h3 id="project-title">Skille i narzędzia</h3>
+                <p>Skille i toole</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-about-work">
+            <div class="accordion" id="accordionSkills">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button skills-header"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <i class="bi bi-gear-wide-connected" id="automation-gear"></i> Automatyzacja
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionSkills"
+                >
+                  <div class="accordion-body">
+                    Od dłuższego czasu pisze testy w Cypress.io, w ciągu minionych lat, framework
+                    znacznie dojrzał. W testach API lubię wpomóc się testami napisanymi w Postmanie.
+                    Czasem, gdy pojawia się taka konieczność, piszę w Selenium.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button skills-header collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Dokumentacja i raportowanie
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionSkills"
+                >
+                  <div class="accordion-body">
+                    Większość projektów wymaga tworzenia dokumentacji testowej i raportowania,
+                    najczęsciej wykorzystuję do tego Confluence, Jira, Test Link i Kiwi TCMS.
+                    Automatyzując dbam o to, aby scenariusze testowe były łatwe w interpretacji i
+                    nie wymagały wiedzy technicznej.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button skills-header collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Front-End
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionSkills"
+                >
+                  <div class="accordion-body">
+                    Responsywność, spójność, walidacje i wszystko cc z frontem związane to dla mnie
+                    ogromna radość. Aktywnie pomagam developerom w rozwiązywaniu problemów i
+                    implementacji poprawek.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button skills-header collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Back-End i API
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionSkills"
+                >
+                  <div class="accordion-body">
+                    Testuję bezpieczeństwo, wydajność, stabilność. Dobry tester wcale nie musi
+                    czekać na front, aby przetestować aplikację :)
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container collapse" id="projects-details">
+      <div class="row">
+        <div class="col-md-6"><div class="fake_nav"></div></div>
+        <div class="col-md-6"><div class="fake_nav"></div></div>
+      </div>
+      <div class="row">
+        <div class="col">1 of 3</div>
+        <div class="col-5">2 of 3 (wider)</div>
+        <div class="col">3 of 3</div>
       </div>
     </div>
     <script
@@ -96,7 +194,10 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript">
-      $(".nav_container").load("./components/navbar.html")
+      $(document).ready(function () {
+        $(".nav_container").load("./components/navbarMenu.html")
+        $(".fake_nav").load("./components/fakeNav.html")
+      })
     </script>
   </body>
 </html>
