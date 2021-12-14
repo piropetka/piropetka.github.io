@@ -68,6 +68,10 @@ html {
 #automation-gear {
   width: 1.5rem;
 }
+body i {
+  font-family: "FontAwesome" !important;
+  font-style: normal;
+}
 @keyframes spin {
   from {
     transform: rotate(0deg);
