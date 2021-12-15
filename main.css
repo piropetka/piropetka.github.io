@@ -11,7 +11,7 @@ body {
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 #welcome-section {
-  background-color: #dce1e5;
+  background-color: #e8f0f7;
   margin: 0.75rem;
 }
 .white-container {
@@ -67,6 +67,17 @@ html {
 }
 #automation-gear {
   width: 1.5rem;
+}
+.offcanvas {
+  transform: translateY(100%);
+  margin-top: 5rem;
+  background-color: rgba(213, 214, 214, 0.9) !important;
+}
+.windows-nav {
+  height: 2.5rem;
+  padding-top: 0;
+  background-color: #d5d6d6 !important;
+  z-index: 1046;
 }
 body i {
   font-family: "FontAwesome" !important;
