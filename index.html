@@ -16,7 +16,7 @@
     <script src="https://kit.fontawesome.com/8a2efcc70f.js" crossorigin="anonymous"></script>
     <title>Wojciech Petka</title>
   </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="0"></body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="0">
     <div class="rounded" id="welcome-section">
       <div class="fake_nav"></div>
       <div class="nav_container"></div>
@@ -49,17 +49,49 @@
       <div class="white-container rounded">
         <div class="fake_nav"></div>
         <div class="row row-about-work">
-          <div class="col-md-4 col-sm-12 col-about-work ">
+          <div class="col-md-4 col-sm-12 col-about-work">
             <div class="project rounded">
               <div class="project-content">
                 <h3 id="project-title">Skille i narzędzia</h3>
-                <p><i class="fa-duotone fa-robot"></i> Cypress.io</p>
-                <p><i class="fa-regular fa-robot"></i> Selenium z <i class="fa-duotone fa-browser"></i> WebDriver i gherkin</p>
-                <p><i class="fa-brands fa-chrome"></i> Chrome DevTools</p>
-                <p><i class="fa-duotone fa-satellite-dish"></i> Postman</p>
-                <p><i class="fa-brands fa-jira"></i> Jira i <i class="fa-brands fa-confluence"></i> Confluence</p>
-                <p><i class="fa-brands fa-docker"></i> Docker i <i class="fa-light fa-dharmachakra"></i> k8s</p>
-                <p><i class="bi bi-git"></i> git i <i class="bi bi-terminal-fill"></i> unix bash</p>
+                <div id="list">
+                  <p><i class="fa-duotone fa-robot"></i> Cypress.io</p>
+                  <p>
+                    <i class="fa-regular fa-robot"></i> Selenium z
+                    <i class="fa-duotone fa-browser"></i> WebDriver i gherkin
+                  </p>
+                  <p>
+                    <i class="fa-brands fa-chrome"></i> Chrome DevTools
+                    <i class="fa-duotone fa-satellite-dish"></i> Postman
+                  </p>
+                  <p>
+                    <i class="fa-brands fa-jira"></i> Jira i
+                    <i class="fa-brands fa-confluence"></i> Confluence
+                  </p>
+                  <p>
+                    <i class="fa-brands fa-docker"></i> Docker i
+                    <i class="fa-light fa-dharmachakra"></i> k8s
+                  </p>
+                  <p>
+                    <i class="bi bi-git"></i> git i <i class="bi bi-terminal-fill"></i> unix bash
+                  </p>
+                  <p><i class="fas fa-database"></i> MongoDB, PostgreSQL</p>
+                  <p>
+                    <i class="fab fa-js-square"></i> JavaScript <i class="fab fa-react"></i> Basics
+                    of React
+                  </p>
+                  <p>
+                    <i class="fab fa-bootstrap"></i> Bootstrap, <i class="fab fa-html5"></i> HTML /
+                    <i class="fab fa-css3-alt"></i> CSS
+                  </p>
+                  <p>
+                    <i class="fab fa-android"></i> ADB, <i class="fab fa-apple"></i> Test Flight,
+                    Cordova
+                  </p>
+                  <p>
+                    <i class="fas fa-pencil-alt"></i> Adobe XD, Axure,
+                    <i class="fab fa-google"></i> Material Design
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -75,7 +107,8 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    <i class="bi bi-gear-wide-connected" id="automation-gear"></i> Automatyzacja
+                    <i class="fas fa-cog accordion-header-icon" id="automation-gear"></i>
+                    Automatyzacja
                   </button>
                 </h2>
                 <div
@@ -85,36 +118,11 @@
                   data-bs-parent="#accordionSkills"
                 >
                   <div class="accordion-body">
-                    Od dłuższego czasu pisze testy w Cypress.io, w ciągu minionych lat, framework
-                    znacznie dojrzał. W testach API lubię wpomóc się testami napisanymi w Postmanie.
-                    Czasem, gdy pojawia się taka konieczność, piszę w Selenium.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button
-                    class="accordion-button skills-header collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Dokumentacja i raportowanie
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionSkills"
-                >
-                  <div class="accordion-body">
-                    Większość projektów wymaga tworzenia dokumentacji testowej i raportowania,
-                    najczęsciej wykorzystuję do tego Confluence, Jira, Test Link i Kiwi TCMS.
-                    Automatyzując dbam o to, aby scenariusze testowe były łatwe w interpretacji i
-                    nie wymagały wiedzy technicznej.
+                    Piszę testy automatyczne z Cypress.io, w testach API wspomagam się Postmanem.
+                    Czasem, gdy pojawia się taka konieczność, piszę w Selenium. Automatyzacja testów
+                    to dla mnie świetny sposób aby zabić rutynę i zwiększyć efektywność swojej
+                    pracy. Gdy zachodzi taka potrzeba mockuję API i generuję dane testowe.
+                    Automatyzacja pomaga także w badaniach stabliności i obciążeniowych.
                   </div>
                 </div>
               </div>
@@ -128,7 +136,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Front-End
+                    <i class="fas fa-drafting-compass accordion-header-icon"></i> Front-End
                   </button>
                 </h2>
                 <div
@@ -140,7 +148,9 @@
                   <div class="accordion-body">
                     Responsywność, spójność, walidacje i wszystko cc z frontem związane to dla mnie
                     ogromna radość. Aktywnie pomagam developerom w rozwiązywaniu problemów i
-                    implementacji poprawek.
+                    implementacji poprawek. Najczęsciej pracuję z aplikacjami typu SPA, pisanymi w
+                    React. Testuję także nie natywne aplikacje mobilne pisane w React Native i
+                    innych popularnych frameworkach.
                   </div>
                 </div>
               </div>
@@ -154,7 +164,7 @@
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    Back-End i API
+                    <i class="fas fa-server accordion-header-icon"></i> Back-End i API
                   </button>
                 </h2>
                 <div
@@ -165,7 +175,38 @@
                 >
                   <div class="accordion-body">
                     Testuję bezpieczeństwo, wydajność, stabilność. Dobry tester wcale nie musi
-                    czekać na front, aby przetestować aplikację :)
+                    czekać na front, aby przetestować aplikację :) Najczęściej pracuję z REST API,
+                    choś nierzadko trafia się projekt z GraphQL lub WebSocket. Na tym polu
+                    automatyzacja bardzo się przydaje, aby badać stabilność i skalowalność
+                    wytwarzanej aplikacji.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button skills-header collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <i class="fas fa-file-signature accordion-header-icon"></i> Dokumentacja i
+                    raportowanie
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionSkills"
+                >
+                  <div class="accordion-body">
+                    Większość projektów wymaga tworzenia dokumentacji testowej i raportowania,
+                    najczęsciej wykorzystuję do tego Confluence, Jira, Test Link i Kiwi TCMS.
+                    Automatyzując dbam o to, aby scenariusze testowe były łatwe w interpretacji i
+                    nie wymagały wiedzy technicznej.
                   </div>
                 </div>
               </div>
@@ -186,17 +227,33 @@
       </div>
     </div>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
       <div class="offcanvas-body">
         <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          Some text as placeholder. In real life you can have the elements you have chosen. Like,
+          text, images, lists, etc.
         </div>
         <div class="dropdown mt-3">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+          >
             Dropdown button
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -210,7 +267,15 @@
 
     <nav class="navbar windows-nav fixed-bottom navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" href="#"><i class="fab fa-windows"></i></a>
+        <a
+          class="navbar-brand"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+          href="#"
+          ><i class="fab fa-windows"></i
+        ></a>
       </div>
     </nav>
     <script
@@ -232,6 +297,17 @@
       $(document).ready(function () {
         $(".nav_container").load("./components/navbarMenu.html")
         $(".fake_nav").load("./components/fakeNav.html")
+      })
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($("body").height() <= $(window).height() + $(window).scrollTop()) {
+            $(".windows-nav").css("visibility", "visible")
+          } else {
+            $(".windows-nav").css("visibility", "hidden")
+          }
+        })
       })
     </script>
   </body>
