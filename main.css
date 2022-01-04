@@ -107,6 +107,8 @@ body i {
   color: #000000 !important;
   background-color: #e8f0f7 !important;
 }
-.accordion-button:focus {
+.accordion-button:focus,
+.navbar-brand {
   box-shadow: none !important;
+  outline: none !important;
 }
