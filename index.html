@@ -230,52 +230,29 @@
     <div
       class="offcanvas offcanvas-start"
       tabindex="-1"
-      id="offcanvasExample"
+      id="offcanvasWindowsStyle"
       aria-labelledby="offcanvasExampleLabel"
     >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like,
-          text, images, lists, etc.
-        </div>
-        <div class="dropdown mt-3">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-bs-toggle="dropdown"
-          >
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Wojciech Petka</h5>
+        <div class="offcanvas-body"></div>
       </div>
     </div>
-
     <nav class="navbar windows-nav fixed-bottom navbar-light bg-light">
       <div class="container-fluid">
         <a
           class="navbar-brand"
           data-bs-toggle="offcanvas"
-          href="#offcanvasExample"
+          href="#offcanvasWindowsStyle"
           role="button"
-          aria-controls="offcanvasExample"
+          aria-controls="offcanvasWindowsStyle"
           href="#"
-          ><i class="fab fa-windows"></i
+          ><i class="bi bi-x-diamond-fill"></i
         ></a>
+        <div class="tray nav justify-content-end">
+          <i class="bi bi-volume-mute"></i>
+          <div id="time">HH:MM</div>
+        </div>
       </div>
     </nav>
     <script
@@ -313,6 +290,26 @@
           $(".windows-nav").css("visibility", "visible")
         }
       })
+    </script>
+    <script>
+      function checkTime(i) {
+        if (i < 10) {
+          i = "0" + i
+        }
+        return i
+      }
+
+      function startTime() {
+        var today = new Date()
+        var h = today.getHours()
+        var m = today.getMinutes()
+        m = checkTime(m)
+        document.getElementById("time").innerHTML = " " + h + ":" + m
+        t = setTimeout(function () {
+          startTime()
+        }, 1000)
+      }
+      startTime()
     </script>
   </body>
 </html>

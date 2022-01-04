@@ -85,6 +85,12 @@ html {
   z-index: 1046;
   visibility: hidden;
 }
+
+.bi-volume-mute:before {
+  margin-right: 0.3rem;
+  font-size: 1.1em;
+  vertical-align: -0.1em;
+}
 body i {
   font-family: "FontAwesome" !important;
   font-style: normal;
