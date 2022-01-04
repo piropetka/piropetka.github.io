@@ -61,7 +61,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1rem;
   font-size: 1.5em;
   margin-right: 1rem;
 }
@@ -98,15 +97,10 @@ body i {
     transform: rotate(360deg);
   }
 }
-@media (min-width: 768px) {
-  .windows-nav {
-    visibility: visible;
-  }
-  .accordion-button:not(.collapsed) {
-    color: #000000;
-    background-color: #e8f0f7;
-  }
-  .accordion-button:focus {
-    box-shadow: none;
-  }
+.accordion-button:not(.collapsed) {
+  color: #000000 !important;
+  background-color: #e8f0f7 !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
 }

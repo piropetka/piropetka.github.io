@@ -302,12 +302,16 @@
     <script>
       $(document).ready(function () {
         $(window).scroll(function () {
-          if ($("body").height() <= $(window).height() + $(window).scrollTop()) {
+          if ($("body").height() <= $(window).height() + $(window).scrollTop() + 41) {
             $(".windows-nav").css("visibility", "visible")
+            $(".about-work").css("margin-bottom", "3rem")
           } else {
             $(".windows-nav").css("visibility", "hidden")
           }
         })
+        if ($(document).height() <= $(window).height()) {
+          $(".windows-nav").css("visibility", "visible")
+        }
       })
     </script>
   </body>
