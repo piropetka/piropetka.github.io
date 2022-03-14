@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Poland Test</title>
+	<itunes:subtitle>WojtekP - test podcasts longer</itunes:subtitle>
+    <itunes:owner>
+        <itunes:email>wojciech.petka@adtonos.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Wojtek Petka</itunes:author>
+	<itunes:category text="Technology" />
+    <description>WojtekP - test podcast</description>
+    <itunes:image href="https://adtonos-twilight.s3.eu-west-1.amazonaws.com/cover.jpg"/>
+    <language>en-us</language>
+    <link>http://piropetka.github.io/</link>
+    <item>
+      <title>Economy</title>
+      <description>Ukrainian War</description>
+	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/3859d2cd-5317-4f3b-b667-fd1a955313b6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=3859d2cd-5317-4f3b-b667-fd1a955313b6&feed=82FI35Px&source=iheart"
+                 type="audio/mpeg" length="36740000"/>
+      <itunes:duration>1:02:11</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts-493825</guid>
+    </item>
+   <item>
+      <title>Economy</title>
+      <description>Study</description>
+	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/3026b665-46df-4d18-98e9-d1ce16bbb1df/episodes/80730b69-ff75-4cd4-8cbb-b9758b70736f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3026b665-46df-4d18-98e9-d1ce16bbb1df&awEpisodeId=80730b69-ff75-4cd4-8cbb-b9758b70736f&feed=82FI35Px&source=iheart"
+                 type="audio/mpeg" length="43730000"/>
+      <itunes:duration>1:13:51</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts-473829</guid>
+    </item>
+  </channel>
+</rss>
