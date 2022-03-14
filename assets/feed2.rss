@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Poland Test</title>
+	<itunes:subtitle>WojtekP - test podcast</itunes:subtitle>
+    <itunes:owner>
+        <itunes:email>wojciech.petka@adtonos.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Wojtek Petka</itunes:author>
+	<itunes:category text="Technology" />
+    <description>WojtekP - test podcast</description>
+    <itunes:image href="https://adtonos-twilight.s3.eu-west-1.amazonaws.com/cover.jpg"/>
+    <language>en-us</language>
+    <link>http://piropetka.github.io/</link>
+    <item>
+      <title>Economy</title>
+      <description>Random Environment stuff</description>
+	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://dcs.megaphone.fm/CGC9914246319.mp3?key=b84ef62ccf40a670e7f3d8be13330b67"
+                 type="audio/mpeg" length="15110000"/>
+      <itunes:duration>25:11</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts</guid>
+    </item>
+   <item>
+      <title>Economy</title>
+      <description>Random Economy stuff</description>
+	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://dcs.megaphone.fm/YAP5138819272.mp3?key=a12765e692ac312ba72cb17acaf5feb7"
+                 type="audio/mpeg" length="15110000"/>
+      <itunes:duration>25:11</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts</guid>
+    </item>
+  </channel>
+</rss>
