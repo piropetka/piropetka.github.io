@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WojtekP WEBM and FLAC Podcasts</title>
+	<itunes:subtitle>WojtekP WEBM and FLAC Podcasts</itunes:subtitle>
+    <itunes:owner>
+        <itunes:email>wojciech.petka@adtonos.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Wojtek Petka</itunes:author>
+	<itunes:category text="Technology" />
+    <description>WojtekP - test podcast</description>
+    <itunes:image href="https://adtonos-twilight.s3.eu-west-1.amazonaws.com/cover.jpg"/>
+    <language>en-us</language>
+    <link>http://piropetka.github.io/</link>
+    <item>
+      <title>Economy</title>
+      <description>Economic podcast</description>
+	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://dl.dropboxusercontent.com/s/c984ubz3yey6eib/economy-flc.flac"
+                 type="audio/flac" length="1980000"/>
+      <itunes:duration>0:25:00</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts-747384</guid>
+    </item>
+   <item>
+      <title>Economy</title>
+      <description>Study</description>
+	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://dl.dropboxusercontent.com/s/n3kr2hsybs4m08c/Toyota-Tundra-wbm.webm"
+                 type="audio/webm" length="1980000"/>
+      <itunes:duration>0:25:00</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts-129440</guid>
+    </item>
+  </channel>
+</rss>
