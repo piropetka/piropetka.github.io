@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Poland Test</title>
+	<itunes:subtitle>WojtekP - test podcast</itunes:subtitle>
+    <itunes:owner>
+        <itunes:email>wojciech.petka@adtonos.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Wojtek Petka</itunes:author>
+	<itunes:category text="Technology" />
+    <description>WojtekP - test podcast</description>
+    <itunes:image href="https://adtonos-twilight.s3.eu-west-1.amazonaws.com/cover.jpg"/>
+    <language>en-us</language>
+    <link>http://piropetka.github.io/</link>
+    <item>
+      <title>Chalice microframework 101</title>
+      <description>Introduction to Chalice, an AWS Lambda microframework.</description>
+	  <pubDate>Fri, 15 Oct 2021 12:00:00 GMT</pubDate>
+      <enclosure url="https://adtonos-twilight.s3.eu-west-1.amazonaws.com/podcast-01.mp3"
+                 type="audio/mpeg" length="24094034"/>
+      <itunes:duration>31:03</itunes:duration>
+      <guid isPermaLink="false">voitech-chalice</guid>
+    </item>
+  </channel>
+</rss>
