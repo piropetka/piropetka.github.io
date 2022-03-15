@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-<link>https://piropetka.github.io/assets/feed4.rss</link>
   <channel>
     <title>WojtekP WEBM and FLAC Podcasts</title>
-	<itunes:subtitle>WojtekP WEBM and FLAC Podcasts</itunes:subtitle>
-  <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'
-xml:lang='en-US'></feed>
+	  <itunes:subtitle>WojtekP WEBM and FLAC Podcasts</itunes:subtitle>
+    <feed xmlns='http://www.w3.org/2005/Atom'
+          xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'
+          xml:lang='en-US'></feed>
+    <atom:link href="https://piropetka.github.io/assets/feed4.rss" rel="self" type="application/rss+xml" />
     <itunes:owner>
         <itunes:email>wojciech.petka@adtonos.com</itunes:email>
     </itunes:owner>
