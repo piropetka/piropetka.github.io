@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<atom:link href="https://piropetka.github.io/assets/feed4.rss" rel="self" type="application/rss+xml" />
   <channel>
     <title>WojtekP WEBM and FLAC Podcasts</title>
 	<itunes:subtitle>WojtekP WEBM and FLAC Podcasts</itunes:subtitle>
+  <feed xmlns='http://www.w3.org/2005/Atom'
+xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'
+xml:lang='en-US'></feed>
     <itunes:owner>
         <itunes:email>wojciech.petka@adtonos.com</itunes:email>
     </itunes:owner>
@@ -15,7 +19,7 @@
     <item>
       <title>Climate change</title>
       <description>Economic podcast</description>
-	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+	  <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
       <enclosure url="https://dl.dropboxusercontent.com/s/wq5cwdx6rwm3247/Climate-Action.ogg"
                  type="audio/flac" length="1511"/>
       <itunes:duration>0:25:11</itunes:duration>
@@ -24,7 +28,7 @@
    <item>
       <title>Economy</title>
       <description>Study</description>
-	  <pubDate>Mon, 14 March 2022 12:00:00 GMT</pubDate>
+	  <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
       <enclosure url="https://dl.dropboxusercontent.com/s/ef46enovs4lv4mh/economy.flac"
                  type="audio/webm" length="4272"/>
       <itunes:duration>1:11:20</itunes:duration>
@@ -32,3 +36,4 @@
     </item>
   </channel>
 </rss>
+
