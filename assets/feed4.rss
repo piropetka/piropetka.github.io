@@ -3,9 +3,6 @@
   <channel>
     <title>WojtekP WEBM and FLAC Podcasts</title>
 	  <itunes:subtitle>WojtekP WEBM and FLAC Podcasts</itunes:subtitle>
-    <atom:feed xmlns='http://www.w3.org/2005/Atom'
-          xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'
-          xml:lang='en-US'></atom:feed>
     <atom:link> href="https://piropetka.github.io/assets/feed4.rss" rel="self" type="application/rss+xml"</atom:link>
     <itunes:owner>
         <itunes:email>wojciech.petka@adtonos.com</itunes:email>
