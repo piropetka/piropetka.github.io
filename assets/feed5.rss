@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WojtekP Podcast guid test</title>
+	  <itunes:subtitle>WojtekP WEBM and FLAC Podcasts</itunes:subtitle>
+    <atom:link> href="https://piropetka.github.io/assets/feed4.rss" rel="self" type="application/rss+xml"</atom:link>
+    <itunes:owner>
+        <itunes:email>wojciech.petka@adtonos.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Wojtek Petka</itunes:author>
+	<itunes:category text="Technology" />
+    <description>WojtekP - random test</description>
+    <itunes:image href="https://adtonos-twilight.s3.eu-west-1.amazonaws.com/cover.jpg"/>
+    <language>en-us</language>
+    <link>http://piropetka.github.io/</link>
+    <item>
+      <title>Test</title>
+      <description>Economic podcast</description>
+	  <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+      <enclosure url="https://6a63fca904fd268f15f7-d5770ffdd579eb31eaa89faeffc55fe7.ssl.cf1.rackcdn.com/elementary-podcasts-s01-e01.mp3"
+                 type="audio/mpeg" length="1440"/>
+      <itunes:duration>0:24:00</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts-wrong-guid</guid>
+    </item>
+   <item>
+      <title>Economy</title>
+      <description>Study</description>
+	  <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/chrt.fm/track/8DB4DB/pdst.fm/e/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/9f556053-ae24-4687-90cf-9816336492cd/audio/128/default.mp3"
+                 type="audio/mpeg" length="1209"/>
+      <itunes:duration>0:20:09</itunes:duration>
+      <guid isPermaLink="false">wojtek-podcasts-wrong-guid</guid>
+    </item>
+  </channel>
+</rss>
+
