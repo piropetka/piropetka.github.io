@@ -17,9 +17,9 @@
       <title>Test</title>
       <description>Economic podcast</description>
 	  <pubDate>Wed, 02 Oct 2002 08:00:00 EST</pubDate>
-      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/5dfd11c1-2b7e-429e-9a1b-ae2b00350fed/864c8356-d0c7-4876-918e-ae5f00db15b2/audio.mp3"
-                 type="audio/mpeg" length="850"/>
-      <itunes:duration>0:14:10</itunes:duration>
+      <enclosure url="https://6a63fca904fd268f15f7-d5770ffdd579eb31eaa89faeffc55fe7.ssl.cf1.rackcdn.com/elementary-podcasts-s01-e01.mp3"
+                 type="audio/mpeg" length="1440"/>
+      <itunes:duration>0:24:00</itunes:duration>
       <guid isPermaLink="false">wojtek-podcasts-wrong-guid</guid>
     </item>
    <item>
