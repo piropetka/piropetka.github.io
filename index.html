@@ -54,42 +54,43 @@
               <div class="project-content">
                 <h3 id="project-title">Skille i narzędzia</h3>
                 <div id="list">
-                  <p><i class="fa-duotone fa-robot"></i> Cypress.io</p>
+                  <p><i class="fa-duotone fa-robot">&nbsp</i>Cypress.io</p>
                   <p>
-                    <i class="fa-regular fa-robot"></i> Selenium z
-                    <i class="fa-duotone fa-browser"></i> WebDriver i gherkin
+                    <i class="fa-regular fa-robot">&nbsp</i>Selenium z
+                    <i class="fa-duotone fa-browser">&nbsp</i>WebDriver i gherkin
                   </p>
                   <p>
-                    <i class="fa-brands fa-chrome"></i> Chrome DevTools
-                    <i class="fa-duotone fa-satellite-dish"></i> Postman
+                    <i class="fa-brands fa-chrome">&nbsp</i>Chrome DevTools
+                    <i class="fa-duotone fa-satellite-dish">&nbsp</i>Postman
                   </p>
                   <p>
-                    <i class="fa-brands fa-jira"></i> Jira i
-                    <i class="fa-brands fa-confluence"></i> Confluence
+                    <i class="fa-brands fa-jira" &nbsp></i>Jira i
+                    <i class="fa-brands fa-confluence">&nbsp</i>Confluence
                   </p>
                   <p>
-                    <i class="fa-brands fa-docker"></i> Docker i
-                    <i class="fa-light fa-dharmachakra"></i> k8s
+                    <i class="fa-brands fa-docker">&nbsp</i>Docker i
+                    <i class="fa-light fa-dharmachakra">&nbsp</i>k8s
                   </p>
                   <p>
-                    <i class="bi bi-git"></i> git i <i class="bi bi-terminal-fill"></i> unix bash
+                    <i class="bi bi-git">&nbsp</i>git i <i class="bi bi-terminal-fill">&nbsp</i>unix
+                    bash
                   </p>
-                  <p><i class="fas fa-database"></i> MongoDB, PostgreSQL</p>
+                  <p><i class="fas fa-database">&nbsp</i>MongoDB, PostgreSQL</p>
                   <p>
-                    <i class="fab fa-js-square"></i> JavaScript <i class="fab fa-react"></i> Basics
-                    of React
-                  </p>
-                  <p>
-                    <i class="fab fa-bootstrap"></i> Bootstrap, <i class="fab fa-html5"></i> HTML /
-                    <i class="fab fa-css3-alt"></i> CSS
+                    <i class="fab fa-js-square">&nbsp</i>JavaScript
+                    <i class="fab fa-react">&nbsp</i>Basics of React
                   </p>
                   <p>
-                    <i class="fab fa-android"></i> ADB, <i class="fab fa-apple"></i> Test Flight,
-                    Cordova
+                    <i class="fab fa-bootstrap">&nbsp</i>Bootstrap,
+                    <i class="fab fa-html5">&nbsp</i>HTML / <i class="fab fa-css3-alt">&nbsp</i>CSS
                   </p>
                   <p>
-                    <i class="fas fa-pencil-alt"></i> Adobe XD, Axure,
-                    <i class="fab fa-google"></i> Material Design
+                    <i class="fab fa-android">&nbsp</i>ADB, <i class="fab fa-apple">&nbsp</i>Test
+                    Flight, Cordova
+                  </p>
+                  <p>
+                    <i class="fas fa-pencil-alt">&nbsp</i>Adobe XD, Axure,
+                    <i class="fab fa-google">&nbsp</i>Material Design
                   </p>
                 </div>
               </div>
@@ -250,6 +251,9 @@
           ><i class="bi bi-x-diamond-fill"></i
         ></a>
         <div class="tray nav justify-content-end">
+          <i class="bi bi-geo-alt currentLocation">&nbsp</i>
+          <div id="location" class="currentLocation">Gdańsk &nbsp</div>
+          <div id="weather">TEMP</div>
           <i class="bi bi-volume-mute"></i>
           <div id="time">HH:MM</div>
         </div>
@@ -274,6 +278,30 @@
       $(document).ready(function () {
         $(".nav_container").load("./components/navbarMenu.html")
         $(".fake_nav").load("./components/fakeNav.html")
+      })
+    </script>
+    <script>
+      let lat = 54.57
+      long = 18.2
+
+      function checkWeather(lat, long) {
+        let weatherURL =
+          "https://api.openweathermap.org/data/2.5/weather?appid=317f83ff12bde9d98cd8260bf3dcccef&units=metric"
+        geoLocation = "&lat=" + lat + "&lon=" + long
+        fetch(weatherURL + geoLocation)
+          .then((response) => response.json())
+          .then((data) => {
+            document.getElementById("weather").innerHTML = data.main.feels_like + "°C &nbsp"
+            document.getElementById("location").innerHTML = data.name + "&nbsp"
+          })
+      }
+      checkWeather(lat, long)
+      $(".currentLocation").click(function (lat, long) {
+        navigator.geolocation.getCurrentPosition(function (position, lat, long) {
+          lat = position.coords.latitude
+          long = position.coords.longitude
+          checkWeather(lat, long)
+        })
       })
     </script>
     <script>

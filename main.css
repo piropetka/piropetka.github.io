@@ -10,6 +10,11 @@ body {
   min-height: 279px;
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
+.main-dropdown,
+i {
+  -webkit-appearance: none;
+  background-color: transparent;
+}
 #welcome-section {
   background-color: #e8f0f7;
   margin: 0.75rem;
