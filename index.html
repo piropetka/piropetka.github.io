@@ -291,7 +291,8 @@
         fetch(weatherURL + geoLocation)
           .then((response) => response.json())
           .then((data) => {
-            document.getElementById("weather").innerHTML = data.main.feels_like + "°C &nbsp"
+            const currentTemp = Math.round(data.main.feels_like * 2) / 2
+            document.getElementById("weather").innerHTML = currentTemp + "°C &nbsp"
             document.getElementById("location").innerHTML = data.name + "&nbsp"
           })
       }
