@@ -10,7 +10,7 @@ xandr.com, 14344, RESELLER
 widesound.io, 10010167, RESELLER, 03facf30f100112b2
 thebrave.io, 1234640, RESELLER, c25b2154543746ac
 uis.mobfox.com, 1858, RESELLER, 5529a3d1f59865be
-loopme.com, 11446,RESELLER,6c8d5f95897a5a3b
+loopme.com, 11446, RESELLER, 6c8d5f95897a5a3b
 smartyads.com, 100251, RESELLER, fd2bde0ff2e62c5d
 smartyads.com, 10, RESELLER, fd2bde0ff2e62c5d
 adswizz.com, adtonos, RESELLER
