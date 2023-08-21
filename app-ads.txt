@@ -6,7 +6,6 @@ appnexus.com, 7491, RESELLER, f5ab79cb980f11d1
 appnexus.com, 7763, RESELLER, f5ab79cb980f11d1
 appnexus.com, 7165, RESELLER, f5ab79cb980f11d1
 appnexus.com, 14256, RESELLER, f5ab79cb980f11d1
-xandr.com, 14344, RESELLER
 widesound.io, 10010167, RESELLER, 03facf30f100112b2
 thebrave.io, 1234640, RESELLER, c25b2154543746ac
 uis.mobfox.com, 1858, RESELLER, 5529a3d1f59865be
